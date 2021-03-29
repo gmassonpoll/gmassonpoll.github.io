@@ -3,18 +3,37 @@ body {
 }
 
 .header {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background: #1abc9c; /* green background */
-  color: white; /* white text color */
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding: 25px; 
+  text-align: left; 
+  background: #1abc9c; 
+  color: white; 
 }
-
-/* Increase the font size of the <h1> element */
 .header h1 {
-  font-size: 40px;
+  font-size: 20px;
+  margin: 0;
 }
 .footer {
     padding: 20px;
-    text-align: center;
+    text-align: left;
     background: #ddd;
+}
+p {
+    margin: 5px 0 5px 0;
+}
+.links {
+    margin-top: 0;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #4B4E61;
+}
+.links a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+#logo-wrap {
+
 }
