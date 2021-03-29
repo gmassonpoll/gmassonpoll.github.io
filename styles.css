@@ -21,6 +21,7 @@ body {
 }
 p {
     margin: 5px 0 5px 0;
+    line-height: 150%;
 }
 .links {
     margin-top: 0;
@@ -36,4 +37,8 @@ p {
 }
 #logo-wrap {
 
+}
+.poem {
+    text-align: left;
+    margin: 20px 550px 20px 550px;
 }
