@@ -1,5 +1,9 @@
+@import url('https://fonts.adobe.com/fonts/mencken');
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: mencken-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .header {
@@ -13,6 +17,7 @@ body {
 .header h1 {
   font-size: 20px;
   margin: 0;
+  font-family: mencken-std, sans-serif;
 }
 .footer {
     padding: 20px;
