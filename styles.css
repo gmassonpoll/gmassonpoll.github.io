@@ -1,7 +1,11 @@
-@import url('https://fonts.adobe.com/fonts/mencken');
+/*@import url('https://fonts.adobe.com/fonts/mencken');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=New+Tegomin&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-  font-family: mencken-std, sans-serif;
+  font-family: 'New Tegomin', serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -11,18 +15,18 @@ body {
   grid-template-columns: 25% 75%;
   padding: 25px; 
   text-align: left; 
-  background: #1abc9c; 
+  background: #212121; 
   color: white; 
 }
 .header h1 {
-  font-size: 20px;
+  font-size: 40px;
   margin: 0;
-  font-family: mencken-std, sans-serif;
+  font-family: 'East Sea Dokdo', serif;
 }
 .footer {
     padding: 20px;
-    text-align: left;
-    background: #ddd;
+    text-align: center;
+    background: #212121;
 }
 p {
     margin: 5px 0 5px 0;
@@ -40,10 +44,42 @@ p {
     padding-right: 10px;
     text-decoration: none;
 }
+/*
 #logo-wrap {
 
 }
+*/
 .poem {
     text-align: left;
     margin: 20px 550px 20px 550px;
+}
+.footer h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'East Sea Dokdo', serif;
+    
+}
+
+
+
+.ft14 {
+font-size: 44px !important;
+  color:red;
+  
+}
+
+
+.ft60 {
+font-size: 60px !important;
+  }
+.clr-wht{color:white;}
+.bg-bl.clr-wht{color:white;}
+
+.bg-blue{
+background-color: #1b95e0 !important;
+  color:#fffff;
+}
+
+i{
+   color:#fffff !important;
 }
