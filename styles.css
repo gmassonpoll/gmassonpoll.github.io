@@ -8,15 +8,41 @@ body {
   font-family: 'New Tegomin', serif;
   font-style: normal;
   font-weight: 400;
+    background-color: #212121;
 }
-
+p {
+    margin: 5px 0 5px 0;
+    line-height: 150%;
+}
+#polaroid-grid {
+    display: grid;
+    outline: none;
+    padding: 100px;
+    height: 2000px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%%;
+}
+.polaroid {
+    max-width: 45%;
+}
+.polaroid.right {
+    transform: rotate(10deg);
+    margin: 0 40% 0 15%;
+}
+.polaroid.left {
+    transform: rotate(-10deg);
+    margin: 0 15% 0 40%;
+}
+.landing {
+    background-color: #212121;
+}
 .header {
   display: grid;
   grid-template-columns: 25% 75%;
   padding: 25px; 
   text-align: left; 
   background: #212121; 
-  color: white; 
+  color: whitesmoke; 
 }
 .header h1 {
   font-size: 40px;
@@ -28,9 +54,16 @@ body {
     text-align: center;
     background: #212121;
 }
-p {
-    margin: 5px 0 5px 0;
-    line-height: 150%;
+.footer h2 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'East Sea Dokdo', serif;
+}
+.footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'East Sea Dokdo', serif;
+    font-size: 30px;
 }
 .links {
     margin-top: 0;
@@ -39,47 +72,22 @@ p {
     color: #4B4E61;
 }
 .links a {
-    color: white;
+    color: whitesmoke;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
 }
-/*
-#logo-wrap {
-
+.blurb {
+    text-align: center;
+    font-size: 70px;
+    color: whitesmoke;
+    margin: 40px 300px 40px 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-*/
 .poem {
     text-align: left;
-    margin: 20px 550px 20px 550px;
-}
-.footer h2 {
-    color: white;
-    font-size: 20px;
-    font-family: 'East Sea Dokdo', serif;
-    
-}
-
-
-
-.ft14 {
-font-size: 44px !important;
-  color:red;
-  
-}
-
-
-.ft60 {
-font-size: 60px !important;
-  }
-.clr-wht{color:white;}
-.bg-bl.clr-wht{color:white;}
-
-.bg-blue{
-background-color: #1b95e0 !important;
-  color:#fffff;
-}
-
-i{
-   color:#fffff !important;
+    color: #212121;
+    background-color: whitesmoke;
+    padding: 20px 550px 20px 550px;
 }
