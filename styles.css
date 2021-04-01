@@ -1,7 +1,4 @@
-/*@import url('https://fonts.adobe.com/fonts/mencken');*/
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=New+Tegomin&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
@@ -14,6 +11,10 @@ p {
     margin: 5px 0 5px 0;
     line-height: 150%;
 }
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 #polaroid-grid {
     display: grid;
     outline: none;
@@ -22,16 +23,20 @@ p {
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%%;
 }
+.image-link.right {
+    margin: 0 40% 0 15%;
+}
+.image-link.left {
+    margin: 0 15% 0 40%;
+}
 .polaroid {
-    max-width: 45%;
+    max-width: 100%;
 }
 .polaroid.right {
     transform: rotate(10deg);
-    margin: 0 40% 0 15%;
 }
 .polaroid.left {
     transform: rotate(-10deg);
-    margin: 0 15% 0 40%;
 }
 .landing {
     background-color: #212121;
